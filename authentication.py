@@ -3,9 +3,14 @@ import logging
 import psycopg2
 import time
 from datetime import datetime, timedelta
+
+
 from global_functions import db_connection, logger, StatusCodes
 import jwt
 import bcrypt
+from functools import wraps
+from flask import jsonify, make_response
+from flask_jwt_extended import get_jwt,create_access_token,set_access_cookies
 
 logging.basicConfig(
     filename='log_file.log',
@@ -14,22 +19,22 @@ logging.basicConfig(
     datefmt='%H:%M:%S'
 )
 
-logger = logging.getLogger('logger')
+#logger = logging.pg('logger')
 
 app = flask.Flask(__name__)
-
-
 
 db = db_connection()
 
 
-@app.route('/dbproj/user', methods=['PUT'])
+@app.route('/src/user', methods=['PUT'])
 def authenticate_user():
 
     route_string = 'PUT /dbproj/user'
     logger.info(route_string)
 
     payload = flask.request.get_json()
+
+    print(payload)
 
     if not payload:
         return flask.jsonify({
@@ -49,15 +54,18 @@ def authenticate_user():
             'results': 'password required'
         })
 
-    conn = db_connection()
-    cur = conn.cursor()
+
 
     try:
+
+        conn = db_connection()
+        cur = conn.cursor()
+
         username = payload['username']
         pwd = payload['password'].encode('utf-8')
 
         statement = """
-            SELECT id, password
+            SELECT username, password
             FROM utilizador
             WHERE username = %s OR email = %s
         """
@@ -74,24 +82,48 @@ def authenticate_user():
         user_id = user[0]
         real_pwd = user[1]
 
+
+        role = None
+
+        tables = {
+            'cliente': 'cliente_utilizador_user_id',
+            'admin': 'administrador_utilizador_user_id',
+        }
+        for table, column in tables.items():
+            query = f"""
+               SELECT 1 FROM {table}
+               WHERE {column} = %s
+               """
+
+            cur.execute(query, (user_id,))
+            if cur.fetchone():
+                role = table
+                break
+
+        if role is None:
+            return jsonify({
+                'status': StatusCodes['api_error'],
+                'error': "Utilizador sem role"
+            })
+
+
+
+
+
         if bcrypt.checkpw(pwd, real_pwd.encode('utf-8')):
 
-            token_data = {
-                'user_id': user_id,
-                'username': username
-            }
-
-            token = jwt.encode(
-                token_data,
-                'bd2026',
-                algorithm='HS256'
+            token_data = create_access_token(
+                identity= user_id,
+                additional_claims = {"role": role}
             )
 
-            response = {
-                'status': StatusCodes['success'],
-                'results': 'Login efetuado!',
-                'token': token
-            }
+
+            response = make_response(jsonify({
+                "status": StatusCodes['api_success'],
+                "token": token_data
+            }))
+
+            set_access_cookies(response, token_data)
 
         else:
             response = {
@@ -102,24 +134,22 @@ def authenticate_user():
         conn.commit()
 
     except Exception as error:
+        if conn:
+            conn.rollback()
 
-        conn.rollback()
+        return jsonify({
+            'status': StatusCodes['api_error'],
+            'error': str(error)
+        })
 
-        response = {
-            'status': StatusCodes['internal_error'],
-            'errors': str(error)
-        }
+    finally:
+        if cur :
+            cur.close()
+        if  conn :
+            conn.close()
 
+    return response
 
-    return flask.jsonify(response)
-
-
-
-
-
-from functools import wraps
-from flask import jsonify
-from flask_jwt_extended import get_jwt
 
 def role_required(*allowed_roles):
     def decorator(func):

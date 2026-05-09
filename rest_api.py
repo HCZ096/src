@@ -2,9 +2,9 @@
 import argparse
 import flask
 import logging
-from flask_jwt_extended import jwt_required
+from flask_jwt_extended import jwt_required,JWTManager
 
-
+from config import Config
 from global_functions import landing_page
 from authentication import authenticate_user,role_required
 from report import demand_periods, top_spenders,monthly_report
@@ -15,12 +15,14 @@ from notices import notice_broadcast
 from fare import update_fare
 from line_operations import update_line_operation,get_lines_next
 from Wallet import wallet_topup
-from Wallet import wallet_topup
 from register import register_admin,register_costumer
 
-from user import authenticate_user ,register_admin
+from user import register_admin
 
 app = flask.Flask(__name__)
+app.config.from_object(Config)
+jwt = JWTManager(app)
+
 
 
 app.route('/') (landing_page)

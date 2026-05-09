@@ -13,3 +13,1145 @@
 00:06:55 [INFO]: 127.0.0.1 - - [04/May/2026 00:06:55] "GET / HTTP/1.1" 200 -
 00:07:11 [INFO]: 127.0.0.1 - - [04/May/2026 00:07:11] "GET / HTTP/1.1" 200 -
 00:09:44 [INFO]: 127.0.0.1 - - [04/May/2026 00:09:44] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+13:29:29 [ERROR]: Error connecting to the database: connection to server at "localhost" (::1), port 5433 failed: FATAL:  password authentication failed for user "MB_admin"
+
+13:29:29 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+13:29:29 [INFO]: [33mPress CTRL+C to quit[0m
+13:29:29 [INFO]:  * Restarting with stat
+15:18:19 [ERROR]: Error connecting to the database: connection to server at "localhost" (::1), port 5433 failed: FATAL:  password authentication failed for user "MB_admin"
+
+15:18:19 [INFO]: Server running on http://127.0.0.1:8080
+15:18:19 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:18:19 [INFO]: [33mPress CTRL+C to quit[0m
+15:18:24 [INFO]: 127.0.0.1 - - [04/May/2026 15:18:24] "GET / HTTP/1.1" 200 -
+15:18:24 [INFO]: 127.0.0.1 - - [04/May/2026 15:18:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+15:18:31 [INFO]: 127.0.0.1 - - [04/May/2026 15:18:31] "[33mGET /register HTTP/1.1[0m" 404 -
+15:18:43 [INFO]: 127.0.0.1 - - [04/May/2026 15:18:43] "[33mGET /register/admin HTTP/1.1[0m" 404 -
+15:19:09 [INFO]: 127.0.0.1 - - [04/May/2026 15:19:09] "[33mGET /register/costumer HTTP/1.1[0m" 404 -
+15:19:21 [INFO]: 127.0.0.1 - - [04/May/2026 15:19:21] "[33mGET /notices HTTP/1.1[0m" 404 -
+15:19:33 [INFO]: 127.0.0.1 - - [04/May/2026 15:19:33] "[31m[1mGET /dbproj/notices/broadcast HTTP/1.1[0m" 405 -
+15:21:14 [INFO]: 127.0.0.1 - - [04/May/2026 15:21:14] "[31m[1mGET /dbproj/register/admin HTTP/1.1[0m" 405 -
+15:21:16 [INFO]: 127.0.0.1 - - [04/May/2026 15:21:16] "[31m[1mGET /dbproj/register/admin HTTP/1.1[0m" 405 -
+15:21:21 [INFO]: 127.0.0.1 - - [04/May/2026 15:21:21] "[33mGET /register/admin HTTP/1.1[0m" 404 -
+15:22:04 [INFO]: 127.0.0.1 - - [04/May/2026 15:22:04] "[33mPOST /register/admin HTTP/1.1[0m" 404 -
+15:22:14 [INFO]: 127.0.0.1 - - [04/May/2026 15:22:14] "[33mPUT /register/admin HTTP/1.1[0m" 404 -
+15:24:40 [INFO]: Server running on http://127.0.0.1:8080
+15:24:40 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:24:40 [INFO]: [33mPress CTRL+C to quit[0m
+15:24:48 [INFO]: 127.0.0.1 - - [04/May/2026 15:24:48] "GET / HTTP/1.1" 200 -
+15:25:03 [INFO]: 127.0.0.1 - - [04/May/2026 15:25:03] "[31m[1mGET /register/costumer HTTP/1.1[0m" 405 -
+15:25:16 [INFO]: 127.0.0.1 - - [04/May/2026 15:25:16] "[31m[1mPUT /register/costumer HTTP/1.1[0m" 405 -
+15:25:34 [INFO]: PUT /dbproj/user
+15:25:34 [INFO]: 127.0.0.1 - - [04/May/2026 15:25:34] "[31m[1mPUT /user HTTP/1.1[0m" 415 -
+14:50:08 [INFO]: Server running on http://127.0.0.1:8080
+14:50:08 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:50:08 [INFO]: [33mPress CTRL+C to quit[0m
+14:50:11 [INFO]: 127.0.0.1 - - [05/May/2026 14:50:11] "GET / HTTP/1.1" 200 -
+14:50:11 [INFO]: 127.0.0.1 - - [05/May/2026 14:50:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+14:55:38 [INFO]: Server running on http://127.0.0.1:8080
+14:55:38 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:55:38 [INFO]: [33mPress CTRL+C to quit[0m
+14:55:40 [INFO]: 127.0.0.1 - - [05/May/2026 14:55:40] "GET / HTTP/1.1" 200 -
+14:56:02 [INFO]: 127.0.0.1 - - [05/May/2026 14:56:02] "[33mGET /register HTTP/1.1[0m" 404 -
+14:56:13 [INFO]: 127.0.0.1 - - [05/May/2026 14:56:13] "[33mGET /dbproj/register HTTP/1.1[0m" 404 -
+14:56:23 [INFO]: 127.0.0.1 - - [05/May/2026 14:56:23] "[31m[1mGET /dbproj/purchase HTTP/1.1[0m" 405 -
+14:56:37 [ERROR]: Exception on /dbproj/purchase [POST]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+14:56:37 [INFO]: 127.0.0.1 - - [05/May/2026 14:56:37] "[35m[1mPOST /dbproj/purchase HTTP/1.1[0m" 500 -
+14:56:47 [INFO]: 127.0.0.1 - - [05/May/2026 14:56:47] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 405 -
+14:57:01 [INFO]: PUT /dbproj/user
+14:57:01 [INFO]: 127.0.0.1 - - [05/May/2026 14:57:01] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+11:51:27 [INFO]: Server running on http://127.0.0.1:8080
+11:51:27 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+11:51:27 [INFO]: [33mPress CTRL+C to quit[0m
+11:51:49 [INFO]: PUT /dbproj/user
+11:51:49 [INFO]: 127.0.0.1 - - [06/May/2026 11:51:49] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+11:53:01 [INFO]: PUT /dbproj/user
+11:53:01 [INFO]: 127.0.0.1 - - [06/May/2026 11:53:01] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+11:53:13 [INFO]: PUT /dbproj/user
+11:53:13 [INFO]: 127.0.0.1 - - [06/May/2026 11:53:13] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+11:53:17 [INFO]: 127.0.0.1 - - [06/May/2026 11:53:17] "[31m[1mGET /dbproj/user HTTP/1.1[0m" 405 -
+11:53:25 [INFO]: PUT /dbproj/user
+11:53:25 [INFO]: 127.0.0.1 - - [06/May/2026 11:53:25] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+11:53:30 [INFO]: 127.0.0.1 - - [06/May/2026 11:53:30] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 405 -
+12:20:18 [INFO]: 127.0.0.1 - - [06/May/2026 12:20:18] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 405 -
+12:20:21 [INFO]: 127.0.0.1 - - [06/May/2026 12:20:21] "[31m[1mGET /dbproj/user HTTP/1.1[0m" 405 -
+12:22:47 [INFO]: PUT /dbproj/user
+12:22:47 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 71, in authenticate_user
+    cur.execute(statement, (username, username))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "id" does not exist
+LINE 2:             SELECT id, password
+                           ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedColumn is not JSON serializable
+when serializing dict item 'error'
+12:22:47 [INFO]: 127.0.0.1 - - [06/May/2026 12:22:47] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:31:54 [INFO]: PUT /dbproj/user
+12:31:54 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 71, in authenticate_user
+    cur.execute(statement, (username, username))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "id" does not exist
+LINE 2:             SELECT id, password
+                           ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedColumn is not JSON serializable
+when serializing dict item 'error'
+12:31:54 [INFO]: 127.0.0.1 - - [06/May/2026 12:31:54] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:33:23 [INFO]: Server running on http://127.0.0.1:8080
+12:33:23 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:33:23 [INFO]: [33mPress CTRL+C to quit[0m
+12:33:25 [INFO]: 127.0.0.1 - - [06/May/2026 12:33:25] "GET / HTTP/1.1" 200 -
+12:33:25 [INFO]: 127.0.0.1 - - [06/May/2026 12:33:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+12:33:32 [INFO]: PUT /dbproj/user
+12:33:32 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 71, in authenticate_user
+    cur.execute(statement, (username, username))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "id" does not exist
+LINE 2:             SELECT id, password
+                           ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedColumn is not JSON serializable
+when serializing dict item 'error'
+12:33:32 [INFO]: 127.0.0.1 - - [06/May/2026 12:33:32] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:34:20 [INFO]: Server running on http://127.0.0.1:8080
+12:34:20 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:34:20 [INFO]: [33mPress CTRL+C to quit[0m
+12:34:23 [INFO]: PUT /dbproj/user
+12:34:23 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 71, in authenticate_user
+    cur.execute(statement, (username, pwd))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "id" does not exist
+LINE 2:             SELECT id, password
+                           ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedColumn is not JSON serializable
+when serializing dict item 'error'
+12:34:23 [INFO]: 127.0.0.1 - - [06/May/2026 12:34:23] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:42:06 [INFO]: Server running on http://127.0.0.1:8080
+12:42:06 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:42:06 [INFO]: [33mPress CTRL+C to quit[0m
+12:42:11 [INFO]: PUT /dbproj/user
+12:42:11 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 71, in authenticate_user
+    cur.execute(statement, (username, pwd))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = bytea
+LINE 4:             WHERE username = 'Shayron' OR email = '\x3132333...
+                                                        ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedFunction is not JSON serializable
+when serializing dict item 'error'
+12:42:11 [INFO]: 127.0.0.1 - - [06/May/2026 12:42:11] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:43:18 [INFO]: Server running on http://127.0.0.1:8080
+12:43:18 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:43:18 [INFO]: [33mPress CTRL+C to quit[0m
+12:43:22 [INFO]: PUT /dbproj/user
+12:43:22 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 71, in authenticate_user
+    cur.execute(statement, (username, pwd))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedFunction: operator does not exist: character varying = bytea
+LINE 4:             WHERE username = 'Shayron' OR email = '\x3132333...
+                                                        ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedFunction is not JSON serializable
+when serializing dict item 'error'
+12:43:22 [INFO]: 127.0.0.1 - - [06/May/2026 12:43:22] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:44:00 [INFO]: Server running on http://127.0.0.1:8080
+12:44:00 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:44:00 [INFO]: [33mPress CTRL+C to quit[0m
+12:44:08 [INFO]: PUT /dbproj/user
+12:44:08 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 96, in authenticate_user
+    cur.execute(query, (user_id,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cliente" does not exist
+LINE 2:                SELECT 1 FROM cliente
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedTable is not JSON serializable
+when serializing dict item 'error'
+12:44:08 [INFO]: 127.0.0.1 - - [06/May/2026 12:44:08] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:44:20 [INFO]: Server running on http://127.0.0.1:8080
+12:44:20 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:44:20 [INFO]: [33mPress CTRL+C to quit[0m
+12:44:22 [INFO]: 127.0.0.1 - - [06/May/2026 12:44:22] "GET / HTTP/1.1" 200 -
+12:44:40 [INFO]: PUT /dbproj/user
+12:44:40 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 96, in authenticate_user
+    cur.execute(query, (user_id,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cliente" does not exist
+LINE 2:                SELECT 1 FROM cliente
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedTable is not JSON serializable
+when serializing dict item 'error'
+12:44:40 [INFO]: 127.0.0.1 - - [06/May/2026 12:44:40] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:45:04 [INFO]: PUT /dbproj/user
+12:45:04 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 96, in authenticate_user
+    cur.execute(query, (user_id,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cliente" does not exist
+LINE 2:                SELECT 1 FROM cliente
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedTable is not JSON serializable
+when serializing dict item 'error'
+12:45:04 [INFO]: 127.0.0.1 - - [06/May/2026 12:45:04] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+12:45:15 [INFO]: PUT /dbproj/user
+12:45:15 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 96, in authenticate_user
+    cur.execute(query, (user_id,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cliente" does not exist
+LINE 2:                SELECT 1 FROM cliente
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 146, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedTable is not JSON serializable
+when serializing dict item 'error'
+12:45:15 [INFO]: 127.0.0.1 - - [06/May/2026 12:45:15] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+18:03:26 [INFO]: Server running on http://127.0.0.1:8080
+18:03:26 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:03:26 [INFO]: [33mPress CTRL+C to quit[0m
+18:03:28 [INFO]: 127.0.0.1 - - [07/May/2026 18:03:28] "GET / HTTP/1.1" 200 -
+18:03:28 [INFO]: 127.0.0.1 - - [07/May/2026 18:03:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+18:05:04 [INFO]: PUT /dbproj/user
+18:05:04 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 96, in authenticate_user
+    cur.execute(query, (user_id,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cliente" does not exist
+LINE 2:                SELECT 1 FROM cliente
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 145, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedTable is not JSON serializable
+when serializing dict item 'error'
+18:05:04 [INFO]: 127.0.0.1 - - [07/May/2026 18:05:04] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+18:13:33 [INFO]: PUT /dbproj/user
+18:13:33 [INFO]: 127.0.0.1 - - [07/May/2026 18:13:33] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+18:14:21 [INFO]: Server running on http://127.0.0.1:8080
+18:14:21 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:14:21 [INFO]: [33mPress CTRL+C to quit[0m
+18:14:24 [INFO]: 127.0.0.1 - - [07/May/2026 18:14:24] "GET / HTTP/1.1" 200 -
+18:14:34 [INFO]: 127.0.0.1 - - [07/May/2026 18:14:34] "[31m[1mGET /dbproj/user HTTP/1.1[0m" 405 -
+18:14:49 [INFO]: PUT /dbproj/user
+18:14:49 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 98, in authenticate_user
+    cur.execute(query, (user_id,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cliente" does not exist
+LINE 2:                SELECT 1 FROM cliente
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 147, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedTable is not JSON serializable
+when serializing dict item 'error'
+18:14:49 [INFO]: 127.0.0.1 - - [07/May/2026 18:14:49] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+18:15:51 [INFO]: Server running on http://127.0.0.1:8080
+18:15:51 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:15:51 [INFO]: [33mPress CTRL+C to quit[0m
+18:15:54 [INFO]: 127.0.0.1 - - [07/May/2026 18:15:54] "GET / HTTP/1.1" 200 -
+18:15:59 [INFO]: PUT /dbproj/user
+18:15:59 [ERROR]: Exception on /dbproj/user [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 98, in authenticate_user
+    cur.execute(query, (user_id,))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "cliente" does not exist
+LINE 2:                SELECT 1 FROM cliente
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 30, in authenticate_user_endpoint
+    return authenticate_user()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 147, in authenticate_user
+    return jsonify({
+        'status': StatusCodes['api_error'],
+        'error': error
+    })
+  File "C:\Python314\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Python314\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python314\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python314\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type UndefinedTable is not JSON serializable
+when serializing dict item 'error'
+18:15:59 [INFO]: 127.0.0.1 - - [07/May/2026 18:15:59] "[35m[1mPUT /dbproj/user HTTP/1.1[0m" 500 -
+18:34:27 [INFO]: Server running on http://127.0.0.1:8080
+18:34:27 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:34:27 [INFO]: [33mPress CTRL+C to quit[0m
+18:34:31 [INFO]: 127.0.0.1 - - [07/May/2026 18:34:31] "GET / HTTP/1.1" 200 -
+18:34:35 [INFO]: PUT /dbproj/user
+18:34:35 [INFO]: 127.0.0.1 - - [07/May/2026 18:34:35] "PUT /dbproj/user HTTP/1.1" 200 -
+23:25:25 [INFO]: Server running on http://127.0.0.1:8080
+23:25:25 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:25:25 [INFO]: [33mPress CTRL+C to quit[0m
+23:25:28 [INFO]: 127.0.0.1 - - [07/May/2026 23:25:28] "GET / HTTP/1.1" 200 -
+23:25:43 [INFO]: PUT /dbproj/user
+23:25:43 [INFO]: 127.0.0.1 - - [07/May/2026 23:25:43] "PUT /dbproj/user HTTP/1.1" 200 -
+23:26:43 [INFO]: Server running on http://127.0.0.1:8080
+23:26:43 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:26:43 [INFO]: [33mPress CTRL+C to quit[0m
+23:26:57 [INFO]: PUT /dbproj/user
+23:26:57 [INFO]: 127.0.0.1 - - [07/May/2026 23:26:57] "PUT /dbproj/user HTTP/1.1" 200 -
+23:28:13 [INFO]: PUT /dbproj/user
+23:28:13 [INFO]: 127.0.0.1 - - [07/May/2026 23:28:13] "PUT /dbproj/user HTTP/1.1" 200 -
+23:28:23 [INFO]: Server running on http://127.0.0.1:8080
+23:28:23 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:28:23 [INFO]: [33mPress CTRL+C to quit[0m
+23:28:26 [INFO]: PUT /dbproj/user
+23:28:26 [INFO]: 127.0.0.1 - - [07/May/2026 23:28:26] "PUT /dbproj/user HTTP/1.1" 200 -
+23:35:04 [INFO]: PUT /dbproj/user
+23:35:04 [INFO]: 127.0.0.1 - - [07/May/2026 23:35:04] "PUT /dbproj/user HTTP/1.1" 200 -
+23:40:19 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:40:19 [INFO]: 127.0.0.1 - - [07/May/2026 23:40:19] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+23:40:34 [INFO]: 127.0.0.1 - - [07/May/2026 23:40:34] "[31m[1mPOST /dbproj/register/admin HTTP/1.1[0m" 405 -
+23:41:16 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:41:16 [INFO]: 127.0.0.1 - - [07/May/2026 23:41:16] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+23:42:00 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:42:00 [INFO]: 127.0.0.1 - - [07/May/2026 23:42:00] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+23:42:25 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:42:25 [INFO]: 127.0.0.1 - - [07/May/2026 23:42:25] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+23:48:01 [INFO]: Server running on http://127.0.0.1:8080
+23:48:01 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:48:01 [INFO]: [33mPress CTRL+C to quit[0m
+23:48:10 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:48:10 [INFO]: 127.0.0.1 - - [07/May/2026 23:48:10] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+23:48:37 [INFO]: 127.0.0.1 - - [07/May/2026 23:48:37] "[31m[1mPOST /dbproj/register/admin HTTP/1.1[0m" 405 -
+23:48:41 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:48:41 [INFO]: 127.0.0.1 - - [07/May/2026 23:48:41] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+23:50:09 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:50:09 [INFO]: 127.0.0.1 - - [07/May/2026 23:50:09] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+23:50:18 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 167, in decorator
+    verify_jwt_in_request(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        optional, fresh, refresh, locations, verify_type, skip_revocation_check
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 94, in verify_jwt_in_request
+    jwt_data, jwt_header, jwt_location = _decode_jwt_from_request(
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~^
+        locations,
+        ^^^^^^^^^^
+    ...<3 lines>...
+        skip_revocation_check=skip_revocation_check,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 310, in _decode_jwt_from_request
+    locations = config.token_location
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\config.py", line 44, in token_location
+    locations = current_app.config["JWT_TOKEN_LOCATION"]
+                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'JWT_TOKEN_LOCATION'
+23:50:18 [INFO]: 127.0.0.1 - - [07/May/2026 23:50:18] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+23:54:26 [INFO]: Server running on http://127.0.0.1:8080
+23:54:26 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:54:26 [INFO]: [33mPress CTRL+C to quit[0m
+23:54:30 [INFO]: 127.0.0.1 - - [07/May/2026 23:54:30] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -

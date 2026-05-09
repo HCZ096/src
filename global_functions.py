@@ -24,11 +24,11 @@ StatusCodes = {
 def db_connection():
     try:
         db = psycopg2.connect(
-            user = 'MB_admin',
-            password = 'MB_admin',
+            user = 'aulaspl',
+            password = 'aulaspl',
             host = 'localhost',
             port = '5433',
-            database = 'MB_db'
+            database = 'dbfichas'
         )
         return db
     except (Exception, psycopg2.DatabaseError) as error:
