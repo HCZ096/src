@@ -10,6 +10,8 @@ db_connection = None
 logger = logging.getLogger('logger')
 StatusCodes = {
     'api_error': 400,
+    'api_success': 200,
+    'error': 400,
     'success': 200,
     'internal_error': 500
 }

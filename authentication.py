@@ -25,8 +25,6 @@ app = flask.Flask(__name__)
 
 db = db_connection()
 
-
-@app.route('/src/user', methods=['PUT'])
 def authenticate_user():
 
     route_string = 'PUT /dbproj/user'
@@ -65,7 +63,7 @@ def authenticate_user():
         pwd = payload['password'].encode('utf-8')
 
         statement = """
-            SELECT username, password
+            SELECT user_id, password
             FROM utilizador
             WHERE username = %s OR email = %s
         """
@@ -85,20 +83,20 @@ def authenticate_user():
 
         role = None
 
-        tables = {
-            'cliente': 'cliente_utilizador_user_id',
-            'admin': 'administrador_utilizador_user_id',
-        }
-        for table, column in tables.items():
-            query = f"""
-               SELECT 1 FROM {table}
-               WHERE {column} = %s
-               """
-
-            cur.execute(query, (user_id,))
-            if cur.fetchone():
-                role = table
-                break
+        cur.execute("""
+           SELECT 1 FROM cliente
+           WHERE cliente_utilizador_user_id = %s
+           """, (user_id,))
+        if cur.fetchone():
+            role = 'cliente'
+        else:
+            cur.execute("""
+               SELECT role FROM adm
+               WHERE administrador_utilizador_user_id = %s
+               """, (user_id,))
+            admin = cur.fetchone()
+            if admin:
+                role = True if admin[0] else False
 
         if role is None:
             return jsonify({
@@ -106,24 +104,37 @@ def authenticate_user():
                 'error': "Utilizador sem role"
             })
 
+        password_is_valid = False
 
+        try:
+            password_is_valid = bcrypt.checkpw(pwd, real_pwd.encode('utf-8'))
+        except ValueError:
+            password_is_valid = payload['password'] == real_pwd
+            if password_is_valid:
+                hashed_password = bcrypt.hashpw(pwd, bcrypt.gensalt()).decode('utf-8')
+                cur.execute("""
+                    UPDATE utilizador
+                    SET password = %s
+                    WHERE user_id = %s
+                    """, (hashed_password, user_id))
+                conn.commit()
 
-
-
-        if bcrypt.checkpw(pwd, real_pwd.encode('utf-8')):
+        if password_is_valid:
 
             token_data = create_access_token(
-                identity= user_id,
-                additional_claims = {"role": role}
+                identity=str(user_id),
+                additional_claims={"role": role}
             )
 
 
             response = make_response(jsonify({
                 "status": StatusCodes['api_success'],
                 "token": token_data
-            }))
 
+            }))
             set_access_cookies(response, token_data)
+
+            return response
 
         else:
             response = {
@@ -148,6 +159,7 @@ def authenticate_user():
         if  conn :
             conn.close()
 
+
     return response
 
 
@@ -156,7 +168,7 @@ def role_required(*allowed_roles):
         @wraps(func)
         def wrapper(*args, **kwargs):
             jwt_data = get_jwt()
-            user_role = jwt_data.get("role")
+            user_role = jwt_data.get('role')
 
             if user_role not in allowed_roles:
                 return jsonify({

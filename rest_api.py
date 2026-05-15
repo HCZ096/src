@@ -1,6 +1,7 @@
 
 import argparse
 import flask
+from flask import request,jsonify
 import logging
 from flask_jwt_extended import jwt_required,JWTManager
 
@@ -15,9 +16,8 @@ from notices import notice_broadcast
 from fare import update_fare
 from line_operations import update_line_operation,get_lines_next
 from Wallet import wallet_topup
-from register import register_admin,register_costumer
+from register import register_admin,register_costumer,register_Sadmin
 
-from user import register_admin
 
 app = flask.Flask(__name__)
 app.config.from_object(Config)
@@ -35,10 +35,14 @@ def authenticate_user_endpoint():
 ## Super Admin functionalities
 #2. Add	Administrator
 @app.route('/dbproj/register/admin',methods=['PUT'])
-@jwt_required()
-@role_required('superadmin')
+@jwt_required()#Comentar
+@role_required(True,False)#Comentar para registar o primeiro Sadmin
 def register_admin_endpoint():
-    return register_admin()
+    payload = request.get_json(silent=True) or {}
+    if payload.get('role') is True:
+        return register_Sadmin()
+    else :
+        return register_admin()
 
 #3 Add Customer
 @app.route('/dbproj/register/costumer', methods=['POST'])

@@ -1155,3 +1155,1661 @@ KeyError: 'JWT_TOKEN_LOCATION'
  * Running on http://127.0.0.1:8080
 23:54:26 [INFO]: [33mPress CTRL+C to quit[0m
 23:54:30 [INFO]: 127.0.0.1 - - [07/May/2026 23:54:30] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+22:06:52 [INFO]: Server running on http://127.0.0.1:8080
+22:06:52 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+22:06:52 [INFO]: [33mPress CTRL+C to quit[0m
+22:08:00 [INFO]: 127.0.0.1 - - [09/May/2026 22:08:00] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+22:28:37 [INFO]: 127.0.0.1 - - [09/May/2026 22:28:37] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+22:29:01 [INFO]: PUT /dbproj/user
+22:29:01 [INFO]: 127.0.0.1 - - [09/May/2026 22:29:01] "PUT /dbproj/user HTTP/1.1" 200 -
+22:36:34 [INFO]: 127.0.0.1 - - [09/May/2026 22:36:34] "[31m[1mPUT /dbproj/register/costumer HTTP/1.1[0m" 405 -
+22:36:37 [INFO]: 127.0.0.1 - - [09/May/2026 22:36:37] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+22:41:38 [INFO]: Server running on http://127.0.0.1:8080
+22:41:38 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+22:41:38 [INFO]: [33mPress CTRL+C to quit[0m
+22:41:42 [INFO]: 127.0.0.1 - - [09/May/2026 22:41:42] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+22:41:52 [INFO]: 127.0.0.1 - - [09/May/2026 22:41:52] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 405 -
+22:41:56 [INFO]: PUT /dbproj/user
+22:41:56 [INFO]: 127.0.0.1 - - [09/May/2026 22:41:56] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+22:42:00 [INFO]: 127.0.0.1 - - [09/May/2026 22:42:00] "[31m[1mGET /dbproj/user HTTP/1.1[0m" 405 -
+22:42:04 [INFO]: PUT /dbproj/user
+22:42:04 [INFO]: 127.0.0.1 - - [09/May/2026 22:42:04] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+22:42:08 [INFO]: PUT /dbproj/user
+22:42:08 [INFO]: 127.0.0.1 - - [09/May/2026 22:42:08] "PUT /dbproj/user HTTP/1.1" 200 -
+22:44:05 [INFO]: PUT /dbproj/user
+22:44:05 [INFO]: 127.0.0.1 - - [09/May/2026 22:44:05] "PUT /dbproj/user HTTP/1.1" 200 -
+22:44:13 [INFO]: PUT /dbproj/user
+22:44:13 [INFO]: 127.0.0.1 - - [09/May/2026 22:44:13] "PUT /dbproj/user HTTP/1.1" 200 -
+22:44:39 [INFO]: 127.0.0.1 - - [09/May/2026 22:44:39] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+22:46:27 [INFO]: Server running on http://127.0.0.1:8080
+22:46:27 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+22:46:27 [INFO]: [33mPress CTRL+C to quit[0m
+22:46:32 [INFO]: 127.0.0.1 - - [09/May/2026 22:46:32] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+22:48:53 [INFO]: Server running on http://127.0.0.1:8080
+22:48:53 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+22:48:53 [INFO]: [33mPress CTRL+C to quit[0m
+22:48:56 [INFO]: 127.0.0.1 - - [09/May/2026 22:48:56] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+23:09:09 [INFO]: 127.0.0.1 - - [09/May/2026 23:09:09] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+23:09:16 [INFO]: Server running on http://127.0.0.1:8080
+23:09:16 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:09:16 [INFO]: [33mPress CTRL+C to quit[0m
+23:20:04 [INFO]: 127.0.0.1 - - [09/May/2026 23:20:04] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+23:21:06 [INFO]: Server running on http://127.0.0.1:8080
+23:21:06 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:21:06 [INFO]: [33mPress CTRL+C to quit[0m
+23:22:34 [INFO]: Server running on http://127.0.0.1:8080
+23:22:34 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:22:34 [INFO]: [33mPress CTRL+C to quit[0m
+23:23:37 [INFO]: 127.0.0.1 - - [09/May/2026 23:23:37] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+23:23:42 [INFO]: Server running on http://127.0.0.1:8080
+23:23:42 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:23:42 [INFO]: [33mPress CTRL+C to quit[0m
+23:23:51 [INFO]: 127.0.0.1 - - [09/May/2026 23:23:51] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+23:23:56 [INFO]: 127.0.0.1 - - [09/May/2026 23:23:56] "[31m[1mPUT /dbproj/register/costumer HTTP/1.1[0m" 405 -
+23:23:59 [INFO]: 127.0.0.1 - - [09/May/2026 23:23:59] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:25:33 [INFO]: Server running on http://127.0.0.1:8080
+23:25:33 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:25:33 [INFO]: [33mPress CTRL+C to quit[0m
+23:26:32 [INFO]: 127.0.0.1 - - [09/May/2026 23:26:32] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:28:46 [INFO]: Server running on http://127.0.0.1:8080
+23:28:46 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:28:46 [INFO]: [33mPress CTRL+C to quit[0m
+23:28:48 [INFO]: 127.0.0.1 - - [09/May/2026 23:28:48] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:31:09 [INFO]: Server running on http://127.0.0.1:8080
+23:31:09 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:31:09 [INFO]: [33mPress CTRL+C to quit[0m
+23:31:13 [INFO]: 127.0.0.1 - - [09/May/2026 23:31:13] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:39:48 [INFO]: 127.0.0.1 - - [09/May/2026 23:39:48] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:41:08 [INFO]: Server running on http://127.0.0.1:8080
+23:41:08 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:41:08 [INFO]: [33mPress CTRL+C to quit[0m
+23:41:20 [INFO]: 127.0.0.1 - - [09/May/2026 23:41:20] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:41:26 [INFO]: 127.0.0.1 - - [09/May/2026 23:41:26] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:45:20 [INFO]: Server running on http://127.0.0.1:8080
+23:45:20 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:45:20 [INFO]: [33mPress CTRL+C to quit[0m
+23:45:22 [ERROR]: 'nif'
+23:45:22 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'])
+                                                                                               ~~~~~~~^^^^^^^
+KeyError: 'nif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 46, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+23:45:22 [INFO]: 127.0.0.1 - - [09/May/2026 23:45:22] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+23:45:49 [INFO]: Server running on http://127.0.0.1:8080
+23:45:49 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:45:49 [INFO]: [33mPress CTRL+C to quit[0m
+23:45:51 [ERROR]: insert_service_user() missing 2 required positional arguments: 'nif' and 'phone'
+23:45:51 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'])
+TypeError: insert_service_user() missing 2 required positional arguments: 'nif' and 'phone'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 46, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+23:45:51 [INFO]: 127.0.0.1 - - [09/May/2026 23:45:51] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+23:48:45 [INFO]: Server running on http://127.0.0.1:8080
+23:48:45 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:48:45 [INFO]: [33mPress CTRL+C to quit[0m
+23:48:47 [INFO]: 127.0.0.1 - - [09/May/2026 23:48:47] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 401 -
+23:55:35 [INFO]: Server running on http://127.0.0.1:8080
+23:55:35 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:55:35 [INFO]: [33mPress CTRL+C to quit[0m
+23:55:36 [ERROR]: 'nif'
+23:55:36 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'])
+                                                                                               ~~~~~~~^^^^^^^
+KeyError: 'nif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 49, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+23:55:36 [INFO]: 127.0.0.1 - - [09/May/2026 23:55:36] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+23:56:05 [INFO]: 127.0.0.1 - - [09/May/2026 23:56:05] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 400 -
+23:57:11 [ERROR]: column "passowrd" of relation "utilizador" does not exist
+LINE 1: INSERT INTO utilizador (username,email,passowrd,nif,phone) 
+                                               ^
+
+23:57:11 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'])
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 8, in insert_service_user
+    cur.execute("""INSERT INTO utilizador (username,email,passowrd,nif,phone)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s,%s,%s,%s)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+                 RETURNING user_id;
+                 ^^^^^^^^^^^^^^^^^^
+                 """,(username,email,password,nif,phone))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "passowrd" of relation "utilizador" does not exist
+LINE 1: INSERT INTO utilizador (username,email,passowrd,nif,phone) 
+                                               ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 49, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+23:57:11 [INFO]: 127.0.0.1 - - [09/May/2026 23:57:11] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+00:00:33 [INFO]: Server running on http://127.0.0.1:8080
+00:00:33 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:00:33 [INFO]: [33mPress CTRL+C to quit[0m
+00:00:35 [INFO]: 127.0.0.1 - - [10/May/2026 00:00:35] "[33mPOST /test HTTP/1.1[0m" 404 -
+00:01:05 [INFO]: 127.0.0.1 - - [10/May/2026 00:01:05] "POST /dbproj/test HTTP/1.1" 200 -
+00:12:46 [INFO]: Server running on http://127.0.0.1:8080
+00:12:46 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:12:46 [INFO]: [33mPress CTRL+C to quit[0m
+00:12:51 [ERROR]: column "passowrd" of relation "utilizador" does not exist
+LINE 1: INSERT INTO utilizador (username,email,passowrd,nif,phone) 
+                                               ^
+
+00:12:51 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'])
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 8, in insert_service_user
+    cur.execute("""INSERT INTO utilizador (username,email,passowrd,nif,phone)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s,%s,%s,%s)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+                 RETURNING user_id;
+                 ^^^^^^^^^^^^^^^^^^
+                 """,(username,email,password,nif,phone))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "passowrd" of relation "utilizador" does not exist
+LINE 1: INSERT INTO utilizador (username,email,passowrd,nif,phone) 
+                                               ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+00:12:51 [INFO]: 127.0.0.1 - - [10/May/2026 00:12:51] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+00:14:01 [INFO]: Server running on http://127.0.0.1:8080
+00:14:01 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:14:01 [INFO]: [33mPress CTRL+C to quit[0m
+00:14:04 [ERROR]: column "passoword" of relation "utilizador" does not exist
+LINE 1: INSERT INTO utilizador (username,email,passoword,nif,phone) 
+                                               ^
+
+00:14:04 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'])
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 8, in insert_service_user
+    cur.execute("""INSERT INTO utilizador (username,email,passoword,nif,phone)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s,%s,%s,%s)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+                 RETURNING user_id;
+                 ^^^^^^^^^^^^^^^^^^
+                 """,(username,email,password,nif,phone))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "passoword" of relation "utilizador" does not exist
+LINE 1: INSERT INTO utilizador (username,email,passoword,nif,phone) 
+                                               ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+00:14:04 [INFO]: 127.0.0.1 - - [10/May/2026 00:14:04] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+00:14:16 [INFO]: Server running on http://127.0.0.1:8080
+00:14:16 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:14:16 [INFO]: [33mPress CTRL+C to quit[0m
+00:14:18 [ERROR]: 'role_cliente'
+00:14:18 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 48, in register_service_user
+    insert_cliente(cur,user_id,payload['role_cliente'])
+                               ~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'role_cliente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+00:14:18 [INFO]: 127.0.0.1 - - [10/May/2026 00:14:18] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+00:33:35 [INFO]: Server running on http://127.0.0.1:8080
+00:33:35 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:33:35 [INFO]: [33mPress CTRL+C to quit[0m
+00:33:38 [ERROR]: 'role_cliente'
+00:33:38 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 48, in register_service_user
+    insert_cliente(cur,user_id,payload["role_cliente"])
+                               ~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'role_cliente'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 85, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 67, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+00:33:38 [INFO]: 127.0.0.1 - - [10/May/2026 00:33:38] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+01:14:22 [INFO]: Server running on http://127.0.0.1:8080
+01:14:22 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:14:22 [INFO]: [33mPress CTRL+C to quit[0m
+01:14:26 [ERROR]: 'dict' object is not callable
+01:14:26 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'],payload(['role']))
+                                                                                                                               ~~~~~~~^^^^^^^^^^
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+01:14:26 [INFO]: 127.0.0.1 - - [10/May/2026 01:14:26] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+01:15:02 [ERROR]: 'dict' object is not callable
+01:15:02 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'],payload(['role']))
+                                                                                                                               ~~~~~~~^^^^^^^^^^
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+01:15:02 [INFO]: 127.0.0.1 - - [10/May/2026 01:15:02] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+02:03:12 [INFO]: Server running on http://127.0.0.1:8080
+02:03:12 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+02:03:12 [INFO]: [33mPress CTRL+C to quit[0m
+02:03:17 [INFO]: 127.0.0.1 - - [10/May/2026 02:03:17] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 400 -
+02:06:54 [ERROR]: 'dict' object is not callable
+02:06:54 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 44, in register_service_user
+    user_id = insert_service_user(cur,payload['username'],payload['email'],payload['password'],payload['nif'],payload['phone'])
+    
+TypeError: 'dict' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+02:06:54 [INFO]: 127.0.0.1 - - [10/May/2026 02:06:54] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+02:20:13 [INFO]: Server running on http://127.0.0.1:8080
+02:20:13 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+02:20:13 [INFO]: [33mPress CTRL+C to quit[0m
+02:20:18 [ERROR]: not all arguments converted during string formatting
+02:20:18 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,payload["role"])
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s);
+                 ^^^^^^^^^^^^
+                 """,(user_id,str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: not all arguments converted during string formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+02:20:18 [INFO]: 127.0.0.1 - - [10/May/2026 02:20:18] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+02:37:10 [INFO]: Server running on http://127.0.0.1:8080
+02:37:10 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+02:37:10 [INFO]: [33mPress CTRL+C to quit[0m
+02:37:18 [ERROR]: not all arguments converted during string formatting
+02:37:18 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,"cliente")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s);
+                 ^^^^^^^^^^^^
+                 """,(user_id,str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: not all arguments converted during string formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+02:37:18 [INFO]: 127.0.0.1 - - [10/May/2026 02:37:18] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+02:38:28 [INFO]: Server running on http://127.0.0.1:8080
+02:38:28 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+02:38:28 [INFO]: [33mPress CTRL+C to quit[0m
+02:38:31 [ERROR]: not all arguments converted during string formatting
+02:38:31 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,"cliente")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s);
+                 ^^^^^^^^^^^^
+                 """,(str(user_id),str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: not all arguments converted during string formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+02:38:31 [INFO]: 127.0.0.1 - - [10/May/2026 02:38:31] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+02:46:11 [INFO]: Server running on http://127.0.0.1:8080
+02:46:11 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+02:46:11 [INFO]: [33mPress CTRL+C to quit[0m
+02:46:14 [ERROR]: INSERT has more expressions than target columns
+LINE 2:                  VALUES ('7','cliente');
+                                     ^
+
+02:46:14 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,"cliente")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.SyntaxError: INSERT has more expressions than target columns
+LINE 2:                  VALUES ('7','cliente');
+                                     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+02:46:14 [INFO]: 127.0.0.1 - - [10/May/2026 02:46:14] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+02:47:35 [INFO]: Server running on http://127.0.0.1:8080
+02:47:35 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+02:47:35 [INFO]: [33mPress CTRL+C to quit[0m
+02:47:39 [INFO]: 127.0.0.1 - - [10/May/2026 02:47:39] "POST /dbproj/register/costumer HTTP/1.1" 200 -
+02:49:33 [ERROR]: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+02:49:33 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,"cliente")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id,role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+02:49:33 [INFO]: 127.0.0.1 - - [10/May/2026 02:49:33] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+02:50:47 [ERROR]: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+02:50:47 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,"cliente")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id,role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+02:50:47 [INFO]: 127.0.0.1 - - [10/May/2026 02:50:47] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+15:33:53 [INFO]: Server running on http://127.0.0.1:8080
+15:33:53 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:33:53 [INFO]: [33mPress CTRL+C to quit[0m
+15:33:56 [INFO]: 127.0.0.1 - - [11/May/2026 15:33:56] "GET / HTTP/1.1" 200 -
+15:33:56 [INFO]: 127.0.0.1 - - [11/May/2026 15:33:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+15:34:13 [INFO]: 127.0.0.1 - - [11/May/2026 15:34:13] "[33mGET /dbproj/register HTTP/1.1[0m" 404 -
+15:34:43 [ERROR]: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+15:34:43 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,"cliente")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id,role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+15:34:43 [INFO]: 127.0.0.1 - - [11/May/2026 15:34:43] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+15:34:53 [INFO]: 127.0.0.1 - - [11/May/2026 15:34:53] "[31m[1mPOST /dbproj/register/admin HTTP/1.1[0m" 405 -
+15:34:58 [INFO]: 127.0.0.1 - - [11/May/2026 15:34:58] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+15:35:08 [INFO]: 127.0.0.1 - - [11/May/2026 15:35:08] "[31m[1mPUT /dbproj/register/costumer HTTP/1.1[0m" 405 -
+15:35:11 [ERROR]: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+15:35:11 [ERROR]: Exception on /dbproj/register/costumer [POST]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 51, in register_service_user
+    insert_cliente(cur,user_id,"cliente")
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 18, in insert_cliente
+    cur.execute("""INSERT INTO cliente (cliente_utilizador_user_id,role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),str(role_cliente)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "cliente_pkey"
+DETAIL:  Key (role)=(cliente) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 62, in register_costumer_endpoint
+    return register_costumer()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_costumer
+    return register_service_user('cliente')
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 69, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+15:35:11 [INFO]: 127.0.0.1 - - [11/May/2026 15:35:11] "[35m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 500 -
+15:49:01 [INFO]: 127.0.0.1 - - [11/May/2026 15:49:01] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+15:50:12 [INFO]: 127.0.0.1 - - [11/May/2026 15:50:12] "[31m[1mPOST /dbproj/register/admin HTTP/1.1[0m" 405 -
+15:50:15 [INFO]: 127.0.0.1 - - [11/May/2026 15:50:15] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+15:50:23 [INFO]: 127.0.0.1 - - [11/May/2026 15:50:23] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+15:50:43 [INFO]: Server running on http://127.0.0.1:8080
+15:50:43 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:50:43 [INFO]: [33mPress CTRL+C to quit[0m
+15:50:48 [INFO]: 127.0.0.1 - - [11/May/2026 15:50:48] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+18:12:34 [INFO]: Server running on http://127.0.0.1:8080
+18:12:34 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:12:34 [INFO]: [33mPress CTRL+C to quit[0m
+18:12:40 [INFO]: 127.0.0.1 - - [11/May/2026 18:12:40] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+18:15:53 [INFO]: Server running on http://127.0.0.1:8080
+18:15:53 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:15:53 [INFO]: [33mPress CTRL+C to quit[0m
+18:15:56 [ERROR]: relation "admin" does not exist
+LINE 1: INSERT INTO Admin (administrador_utilizador_user_id, role)
+                    ^
+
+18:15:56 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 48, in register_service_user
+    insert_admin(cur,user_id,False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 24, in insert_admin
+    cur.execute("""INSERT INTO Admin (administrador_utilizador_user_id, role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),bool(role_admin)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "admin" does not exist
+LINE 1: INSERT INTO Admin (administrador_utilizador_user_id, role)
+                    ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 54, in register_admin_endpoint
+    return register_admin()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_admin
+    return register_service_user(bool(False))
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 65, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+18:15:56 [INFO]: 127.0.0.1 - - [11/May/2026 18:15:56] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+18:16:31 [INFO]: Server running on http://127.0.0.1:8080
+18:16:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:16:31 [INFO]: [33mPress CTRL+C to quit[0m
+18:16:43 [ERROR]: relation "adm" does not exist
+LINE 1: INSERT INTO Adm (administrador_utilizador_user_id, role)
+                    ^
+
+18:16:43 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 48, in register_service_user
+    insert_admin(cur,user_id,False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 24, in insert_admin
+    cur.execute("""INSERT INTO Adm (administrador_utilizador_user_id, role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),bool(role_admin)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "adm" does not exist
+LINE 1: INSERT INTO Adm (administrador_utilizador_user_id, role)
+                    ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 54, in register_admin_endpoint
+    return register_admin()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_admin
+    return register_service_user(bool(False))
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 65, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+18:16:43 [INFO]: 127.0.0.1 - - [11/May/2026 18:16:43] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+18:21:58 [INFO]: Server running on http://127.0.0.1:8080
+18:21:58 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:21:58 [INFO]: [33mPress CTRL+C to quit[0m
+18:22:00 [INFO]: 127.0.0.1 - - [11/May/2026 18:22:00] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+18:24:20 [ERROR]: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+18:24:20 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 48, in register_service_user
+    insert_admin(cur,user_id,False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 24, in insert_admin
+    cur.execute("""INSERT INTO Adm (administrador_utilizador_user_id, role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),bool(role_admin)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 54, in register_admin_endpoint
+    return register_admin()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_admin
+    return register_service_user(bool(False))
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 65, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+18:24:20 [INFO]: 127.0.0.1 - - [11/May/2026 18:24:20] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+18:24:39 [ERROR]: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+18:24:39 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 48, in register_service_user
+    insert_admin(cur,user_id,False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 24, in insert_admin
+    cur.execute("""INSERT INTO Adm (administrador_utilizador_user_id, role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),bool(role_admin)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 54, in register_admin_endpoint
+    return register_admin()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_admin
+    return register_service_user(bool(False))
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 65, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+18:24:39 [INFO]: 127.0.0.1 - - [11/May/2026 18:24:39] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+18:28:57 [ERROR]: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+18:28:57 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 48, in register_service_user
+    insert_admin(cur,user_id,False)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 24, in insert_admin
+    cur.execute("""INSERT INTO Adm (administrador_utilizador_user_id, role)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 VALUES (%s,%s);
+                 ^^^^^^^^^^^^^^^
+                 """,(str(user_id),bool(role_admin)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 54, in register_admin_endpoint
+    return register_admin()
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 87, in register_admin
+    return register_service_user(bool(False))
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\register.py", line 65, in register_service_user
+    'status' : StatusCodes['error'],
+               ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'error'
+18:28:57 [INFO]: 127.0.0.1 - - [11/May/2026 18:28:57] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+18:29:15 [INFO]: Server running on http://127.0.0.1:8080
+18:29:15 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+18:29:15 [INFO]: [33mPress CTRL+C to quit[0m
+18:29:28 [INFO]: 127.0.0.1 - - [11/May/2026 18:29:28] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+23:38:31 [INFO]: Server running on http://127.0.0.1:8080
+23:38:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:38:31 [INFO]: [33mPress CTRL+C to quit[0m
+23:38:54 [INFO]: 127.0.0.1 - - [12/May/2026 23:38:54] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+23:46:19 [INFO]: 127.0.0.1 - - [12/May/2026 23:46:19] "[31m[1mGET /dbproj/register/admin HTTP/1.1[0m" 405 -
+23:55:44 [INFO]: 127.0.0.1 - - [12/May/2026 23:55:44] "[31m[1mGET /dbproj/user HTTP/1.1[0m" 405 -
+23:59:35 [INFO]: Server running on http://127.0.0.1:8080
+23:59:35 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+23:59:35 [INFO]: [33mPress CTRL+C to quit[0m
+23:59:55 [INFO]: PUT /dbproj/user
+23:59:55 [INFO]: 127.0.0.1 - - [12/May/2026 23:59:55] "PUT /dbproj/user HTTP/1.1" 200 -
+00:00:18 [INFO]: PUT /dbproj/user
+00:00:18 [INFO]: 127.0.0.1 - - [13/May/2026 00:00:18] "PUT /dbproj/user HTTP/1.1" 200 -
+13:21:51 [INFO]: Server running on http://127.0.0.1:8080
+13:21:51 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:21:51 [INFO]: [33mPress CTRL+C to quit[0m
+13:22:21 [INFO]: Server running on http://127.0.0.1:8080
+13:22:21 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:22:21 [INFO]: [33mPress CTRL+C to quit[0m
+13:22:51 [INFO]: Server running on http://127.0.0.1:8080
+13:22:51 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:22:51 [INFO]: [33mPress CTRL+C to quit[0m
+13:24:53 [INFO]: Server running on http://127.0.0.1:8080
+13:24:53 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:24:53 [INFO]: [33mPress CTRL+C to quit[0m
+13:24:56 [INFO]: 127.0.0.1 - - [13/May/2026 13:24:56] "GET / HTTP/1.1" 200 -
+13:37:07 [INFO]: Server running on http://127.0.0.1:8080
+13:37:07 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:37:07 [INFO]: [33mPress CTRL+C to quit[0m
+13:37:12 [INFO]: 127.0.0.1 - - [13/May/2026 13:37:12] "GET / HTTP/1.1" 200 -
+13:37:12 [INFO]: 127.0.0.1 - - [13/May/2026 13:37:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+13:37:29 [INFO]: 127.0.0.1 - - [13/May/2026 13:37:29] "[33mPUT /src/user HTTP/1.1[0m" 404 -
+13:41:31 [INFO]: 127.0.0.1 - - [13/May/2026 13:41:31] "[33mPUT /src/user HTTP/1.1[0m" 404 -
+13:41:38 [INFO]: 127.0.0.1 - - [13/May/2026 13:41:38] "[33mPUT /src/user HTTP/1.1[0m" 404 -
+13:45:34 [INFO]: Server running on http://127.0.0.1:8080
+13:45:34 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:45:34 [INFO]: [33mPress CTRL+C to quit[0m
+13:47:20 [INFO]: 127.0.0.1 - - [13/May/2026 13:47:20] "[33mPUT /src/user HTTP/1.1[0m" 404 -
+13:48:30 [INFO]: 127.0.0.1 - - [13/May/2026 13:48:30] "GET / HTTP/1.1" 200 -
+13:48:45 [INFO]: 127.0.0.1 - - [13/May/2026 13:48:45] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:50:54 [INFO]: Server running on http://127.0.0.1:8080
+13:50:54 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:50:54 [INFO]: [33mPress CTRL+C to quit[0m
+13:51:03 [INFO]: Server running on http://127.0.0.1:8080
+13:51:03 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:51:03 [INFO]: [33mPress CTRL+C to quit[0m
+13:51:13 [INFO]: 127.0.0.1 - - [13/May/2026 13:51:13] "GET / HTTP/1.1" 200 -
+13:52:46 [INFO]: Server running on http://127.0.0.1:8080
+13:52:46 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:52:46 [INFO]: [33mPress CTRL+C to quit[0m
+13:52:49 [INFO]: 127.0.0.1 - - [13/May/2026 13:52:49] "GET / HTTP/1.1" 200 -
+13:52:53 [INFO]: 127.0.0.1 - - [13/May/2026 13:52:53] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:53:06 [INFO]: 127.0.0.1 - - [13/May/2026 13:53:06] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:53:06 [INFO]: 127.0.0.1 - - [13/May/2026 13:53:06] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:53:52 [INFO]: Server running on http://127.0.0.1:8080
+13:53:52 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:53:52 [INFO]: [33mPress CTRL+C to quit[0m
+13:53:56 [INFO]: 127.0.0.1 - - [13/May/2026 13:53:56] "GET / HTTP/1.1" 200 -
+13:54:05 [INFO]: 127.0.0.1 - - [13/May/2026 13:54:05] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:54:05 [INFO]: 127.0.0.1 - - [13/May/2026 13:54:05] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:54:29 [INFO]: 127.0.0.1 - - [13/May/2026 13:54:29] "[33mPUT /dbproj/register/admin%0A HTTP/1.1[0m" 404 -
+13:55:59 [INFO]: 127.0.0.1 - - [13/May/2026 13:55:59] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+13:56:54 [INFO]: 127.0.0.1 - - [13/May/2026 13:56:54] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:57:02 [INFO]: 127.0.0.1 - - [13/May/2026 13:57:02] "[33mPUT /src/user%0A HTTP/1.1[0m" 404 -
+13:59:06 [INFO]: Server running on http://127.0.0.1:8080
+13:59:06 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:59:06 [INFO]: [33mPress CTRL+C to quit[0m
+13:59:10 [INFO]: 127.0.0.1 - - [13/May/2026 13:59:10] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+14:01:56 [INFO]: Server running on http://127.0.0.1:8080
+14:01:56 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:01:56 [INFO]: [33mPress CTRL+C to quit[0m
+14:01:58 [INFO]: 127.0.0.1 - - [13/May/2026 14:01:58] "GET / HTTP/1.1" 200 -
+14:02:02 [INFO]: 127.0.0.1 - - [13/May/2026 14:02:02] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+14:02:25 [INFO]: 127.0.0.1 - - [13/May/2026 14:02:25] "[33mPUT /dbproj/test%0A HTTP/1.1[0m" 404 -
+14:02:32 [INFO]: 127.0.0.1 - - [13/May/2026 14:02:32] "[33mPOST /dbproj/test%0A HTTP/1.1[0m" 404 -
+14:03:00 [INFO]: Server running on http://127.0.0.1:8080
+14:03:00 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:03:00 [INFO]: [33mPress CTRL+C to quit[0m
+14:03:03 [INFO]: 127.0.0.1 - - [13/May/2026 14:03:03] "[33mPOST /dbproj/test%0A HTTP/1.1[0m" 404 -
+14:45:38 [INFO]: 127.0.0.1 - - [13/May/2026 14:45:38] "POST /dbproj/test HTTP/1.1" 200 -
+14:45:45 [INFO]: 127.0.0.1 - - [13/May/2026 14:45:45] "[33mPOST /dbproj/useer HTTP/1.1[0m" 404 -
+14:45:47 [INFO]: 127.0.0.1 - - [13/May/2026 14:45:47] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 405 -
+14:45:53 [INFO]: PUT /dbproj/user
+14:45:53 [INFO]: 127.0.0.1 - - [13/May/2026 14:45:53] "PUT /dbproj/user HTTP/1.1" 200 -
+14:59:06 [INFO]: Server running on http://127.0.0.1:8080
+14:59:06 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:59:06 [INFO]: [33mPress CTRL+C to quit[0m
+14:59:10 [INFO]: 127.0.0.1 - - [13/May/2026 14:59:10] "GET / HTTP/1.1" 200 -
+15:09:27 [INFO]: Server running on http://127.0.0.1:8080
+15:09:27 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:09:27 [INFO]: [33mPress CTRL+C to quit[0m
+15:09:30 [INFO]: PUT /dbproj/user
+15:09:31 [INFO]: 127.0.0.1 - - [13/May/2026 15:09:31] "PUT /dbproj/user HTTP/1.1" 200 -
+15:11:16 [INFO]: PUT /dbproj/user
+15:11:16 [INFO]: 127.0.0.1 - - [13/May/2026 15:11:16] "PUT /dbproj/user HTTP/1.1" 200 -
+15:17:56 [INFO]: Server running on http://127.0.0.1:8080
+15:17:56 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:17:56 [INFO]: [33mPress CTRL+C to quit[0m
+15:17:59 [INFO]: PUT /dbproj/user
+15:17:59 [INFO]: 127.0.0.1 - - [13/May/2026 15:17:59] "PUT /dbproj/user HTTP/1.1" 200 -
+15:18:28 [INFO]: 127.0.0.1 - - [13/May/2026 15:18:28] "[33mPUT /dbproj/register/admin%0A HTTP/1.1[0m" 404 -
+15:19:16 [INFO]: 127.0.0.1 - - [13/May/2026 15:19:16] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+15:44:08 [INFO]: Server running on http://127.0.0.1:8080
+15:44:08 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:44:08 [INFO]: [33mPress CTRL+C to quit[0m
+15:44:12 [INFO]: 127.0.0.1 - - [13/May/2026 15:44:12] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+15:44:15 [INFO]: 127.0.0.1 - - [13/May/2026 15:44:15] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+15:44:56 [INFO]: 127.0.0.1 - - [13/May/2026 15:44:56] "[33mPUT /dbproj/register/Sadmin HTTP/1.1[0m" 404 -
+15:45:21 [INFO]: 127.0.0.1 - - [13/May/2026 15:45:21] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+16:25:13 [INFO]: 127.0.0.1 - - [13/May/2026 16:25:13] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+17:53:52 [INFO]: Server running on http://127.0.0.1:8080
+17:53:52 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+17:53:52 [INFO]: [33mPress CTRL+C to quit[0m
+17:54:21 [INFO]: 127.0.0.1 - - [13/May/2026 17:54:21] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+15:50:08 [INFO]: Server running on http://127.0.0.1:8080
+15:50:08 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:50:08 [INFO]: [33mPress CTRL+C to quit[0m
+15:50:10 [INFO]: 127.0.0.1 - - [14/May/2026 15:50:10] "GET / HTTP/1.1" 200 -
+15:50:10 [INFO]: 127.0.0.1 - - [14/May/2026 15:50:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+15:50:22 [INFO]: 127.0.0.1 - - [14/May/2026 15:50:22] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+15:50:36 [INFO]: 127.0.0.1 - - [14/May/2026 15:50:36] "[33mPUT /dbproj/register/user HTTP/1.1[0m" 404 -
+15:51:17 [INFO]: 127.0.0.1 - - [14/May/2026 15:51:17] "[33mPUT /dbproj/register/user HTTP/1.1[0m" 404 -
+15:51:33 [INFO]: PUT /dbproj/user
+15:51:33 [INFO]: 127.0.0.1 - - [14/May/2026 15:51:33] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+15:51:37 [INFO]: PUT /dbproj/user
+15:51:37 [INFO]: 127.0.0.1 - - [14/May/2026 15:51:37] "PUT /dbproj/user HTTP/1.1" 200 -
+15:51:49 [INFO]: PUT /dbproj/user
+15:51:49 [INFO]: 127.0.0.1 - - [14/May/2026 15:51:49] "PUT /dbproj/user HTTP/1.1" 200 -
+15:51:58 [INFO]: PUT /dbproj/user
+15:51:58 [INFO]: 127.0.0.1 - - [14/May/2026 15:51:58] "PUT /dbproj/user HTTP/1.1" 200 -
+15:52:34 [INFO]: 127.0.0.1 - - [14/May/2026 15:52:34] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+15:52:50 [INFO]: 127.0.0.1 - - [14/May/2026 15:52:50] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+15:55:10 [INFO]: 127.0.0.1 - - [14/May/2026 15:55:10] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+15:55:16 [INFO]: 127.0.0.1 - - [14/May/2026 15:55:16] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+16:14:47 [INFO]: 127.0.0.1 - - [14/May/2026 16:14:47] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+16:18:31 [INFO]: Server running on http://127.0.0.1:8080
+16:18:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+16:18:31 [INFO]: [33mPress CTRL+C to quit[0m
+16:40:56 [INFO]: Server running on http://127.0.0.1:8080
+16:40:56 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+16:40:56 [INFO]: [33mPress CTRL+C to quit[0m
+16:41:01 [INFO]: 127.0.0.1 - - [14/May/2026 16:41:01] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+16:43:58 [INFO]: Server running on http://127.0.0.1:8080
+16:43:58 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+16:43:58 [INFO]: [33mPress CTRL+C to quit[0m
+16:44:01 [INFO]: 127.0.0.1 - - [14/May/2026 16:44:01] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+16:46:07 [INFO]: Server running on http://127.0.0.1:8080
+16:46:07 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+16:46:07 [INFO]: [33mPress CTRL+C to quit[0m
+16:46:13 [INFO]: 127.0.0.1 - - [14/May/2026 16:46:13] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 422 -
+16:46:34 [INFO]: PUT /dbproj/user
+16:46:35 [INFO]: 127.0.0.1 - - [14/May/2026 16:46:35] "PUT /dbproj/user HTTP/1.1" 200 -
+16:47:06 [ERROR]: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+16:47:06 [INFO]: 127.0.0.1 - - [14/May/2026 16:47:06] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+16:47:39 [ERROR]: duplicate key value violates unique constraint "role"
+DETAIL:  Key (role)=(f) already exists.
+
+16:47:39 [INFO]: 127.0.0.1 - - [14/May/2026 16:47:39] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+16:51:04 [INFO]: Server running on http://127.0.0.1:8080
+16:51:04 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+16:51:04 [INFO]: [33mPress CTRL+C to quit[0m
+16:51:09 [INFO]: 127.0.0.1 - - [14/May/2026 16:51:09] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+16:51:39 [INFO]: 127.0.0.1 - - [14/May/2026 16:51:39] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 400 -
+16:56:15 [INFO]: 127.0.0.1 - - [14/May/2026 16:56:15] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+16:59:18 [INFO]: 127.0.0.1 - - [14/May/2026 16:59:18] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+16:59:22 [INFO]: Server running on http://127.0.0.1:8080
+16:59:22 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+16:59:22 [INFO]: [33mPress CTRL+C to quit[0m
+16:59:26 [INFO]: 127.0.0.1 - - [14/May/2026 16:59:26] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+17:00:55 [INFO]: Server running on http://127.0.0.1:8080
+17:00:55 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+17:00:55 [INFO]: [33mPress CTRL+C to quit[0m
+17:00:58 [INFO]: 127.0.0.1 - - [14/May/2026 17:00:58] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+17:01:51 [INFO]: Server running on http://127.0.0.1:8080
+17:01:51 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+17:01:51 [INFO]: [33mPress CTRL+C to quit[0m
+17:01:58 [INFO]: Server running on http://127.0.0.1:8080
+17:01:58 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+17:01:58 [INFO]: [33mPress CTRL+C to quit[0m
+17:02:01 [INFO]: 127.0.0.1 - - [14/May/2026 17:02:01] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+17:02:12 [INFO]: 127.0.0.1 - - [14/May/2026 17:02:12] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+17:03:51 [INFO]: Server running on http://127.0.0.1:8080
+17:03:51 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+17:03:51 [INFO]: [33mPress CTRL+C to quit[0m
+17:03:54 [INFO]: 127.0.0.1 - - [14/May/2026 17:03:54] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+17:04:43 [INFO]: 127.0.0.1 - - [14/May/2026 17:04:43] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+17:04:57 [INFO]: 127.0.0.1 - - [14/May/2026 17:04:57] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+17:05:01 [INFO]: 127.0.0.1 - - [14/May/2026 17:05:01] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+12:45:15 [INFO]: Server running on http://127.0.0.1:8080
+12:45:15 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:45:15 [INFO]: [33mPress CTRL+C to quit[0m
+12:47:08 [INFO]: 127.0.0.1 - - [15/May/2026 12:47:08] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+12:47:28 [INFO]: 127.0.0.1 - - [15/May/2026 12:47:28] "GET / HTTP/1.1" 200 -
+12:47:28 [INFO]: 127.0.0.1 - - [15/May/2026 12:47:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+12:47:42 [INFO]: 127.0.0.1 - - [15/May/2026 12:47:42] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+12:52:49 [INFO]: 127.0.0.1 - - [15/May/2026 12:52:49] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+12:58:15 [INFO]: Server running on http://127.0.0.1:8080
+12:58:15 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:58:15 [INFO]: [33mPress CTRL+C to quit[0m
+12:58:19 [INFO]: 127.0.0.1 - - [15/May/2026 12:58:19] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+12:58:34 [INFO]: PUT /dbproj/user
+12:58:34 [INFO]: 127.0.0.1 - - [15/May/2026 12:58:34] "PUT /dbproj/user HTTP/1.1" 200 -
+13:00:35 [INFO]: PUT /dbproj/user
+13:00:35 [INFO]: 127.0.0.1 - - [15/May/2026 13:00:35] "PUT /dbproj/user HTTP/1.1" 200 -
+13:01:52 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 57, in register_admin_endpoint
+    if payload['role'] is "True":
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:01:52 [INFO]: 127.0.0.1 - - [15/May/2026 13:01:52] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:01:59 [INFO]: 127.0.0.1 - - [15/May/2026 13:01:59] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:05:43 [INFO]: Server running on http://127.0.0.1:8080
+13:05:43 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:05:43 [INFO]: [33mPress CTRL+C to quit[0m
+13:05:48 [INFO]: 127.0.0.1 - - [15/May/2026 13:05:48] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:06:49 [INFO]: Server running on http://127.0.0.1:8080
+13:06:49 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:06:49 [INFO]: [33mPress CTRL+C to quit[0m
+13:06:51 [INFO]: 127.0.0.1 - - [15/May/2026 13:06:51] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:09:36 [INFO]: 127.0.0.1 - - [15/May/2026 13:09:36] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:43:31 [INFO]: Server running on http://127.0.0.1:8080
+13:43:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:43:31 [INFO]: [33mPress CTRL+C to quit[0m
+13:43:42 [INFO]: 127.0.0.1 - - [15/May/2026 13:43:42] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+13:43:45 [INFO]: PUT /dbproj/user
+13:43:45 [INFO]: 127.0.0.1 - - [15/May/2026 13:43:45] "PUT /dbproj/user HTTP/1.1" 200 -
+13:43:51 [INFO]: PUT /dbproj/user
+13:43:51 [INFO]: 127.0.0.1 - - [15/May/2026 13:43:51] "PUT /dbproj/user HTTP/1.1" 200 -
+13:44:01 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 57, in register_admin_endpoint
+    if payload['role'] is "True":
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:44:01 [INFO]: 127.0.0.1 - - [15/May/2026 13:44:01] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:44:14 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 57, in register_admin_endpoint
+    if payload['role'] is "True":
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:44:14 [INFO]: 127.0.0.1 - - [15/May/2026 13:44:14] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:46:46 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 57, in register_admin_endpoint
+    return register_Sadmin()
+    ^^^^^^^^^^^^^^
+KeyError: 'role'
+13:46:46 [INFO]: 127.0.0.1 - - [15/May/2026 13:46:46] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:46:54 [INFO]: 127.0.0.1 - - [15/May/2026 13:46:54] "[33mPUT /dbproj/register/cliente HTTP/1.1[0m" 404 -
+13:47:09 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 57, in register_admin_endpoint
+    return register_Sadmin()
+    ^^^^^^^^^^^^^^
+KeyError: 'role'
+13:47:09 [INFO]: 127.0.0.1 - - [15/May/2026 13:47:09] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:47:12 [INFO]: Server running on http://127.0.0.1:8080
+13:47:12 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:47:12 [INFO]: [33mPress CTRL+C to quit[0m
+13:47:15 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 56, in register_admin_endpoint
+    if payload['role'] is True:
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:47:15 [INFO]: 127.0.0.1 - - [15/May/2026 13:47:15] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:47:36 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 56, in register_admin_endpoint
+    if payload['role'] is True:
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:47:36 [INFO]: 127.0.0.1 - - [15/May/2026 13:47:36] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:47:52 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 56, in register_admin_endpoint
+    if payload['role'] is True:
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:47:52 [INFO]: 127.0.0.1 - - [15/May/2026 13:47:52] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:48:02 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 56, in register_admin_endpoint
+    if payload['role'] is True:
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:48:02 [INFO]: 127.0.0.1 - - [15/May/2026 13:48:02] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:48:15 [INFO]: 127.0.0.1 - - [15/May/2026 13:48:15] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+13:48:22 [INFO]: PUT /dbproj/user
+13:48:22 [INFO]: 127.0.0.1 - - [15/May/2026 13:48:22] "PUT /dbproj/user HTTP/1.1" 200 -
+13:48:42 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 56, in register_admin_endpoint
+    if payload['role'] is True:
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:48:42 [INFO]: 127.0.0.1 - - [15/May/2026 13:48:42] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:48:54 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 56, in register_admin_endpoint
+    if payload['role'] is True:
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:48:54 [INFO]: 127.0.0.1 - - [15/May/2026 13:48:54] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:49:12 [INFO]: 127.0.0.1 - - [15/May/2026 13:49:12] "[31m[1mPUT /dbproj/register/costumer HTTP/1.1[0m" 405 -
+13:49:18 [INFO]: 127.0.0.1 - - [15/May/2026 13:49:18] "[31m[1mPOST /dbproj/register/costumer HTTP/1.1[0m" 400 -
+13:49:23 [INFO]: 127.0.0.1 - - [15/May/2026 13:49:23] "POST /dbproj/register/costumer HTTP/1.1" 200 -
+13:50:06 [INFO]: 127.0.0.1 - - [15/May/2026 13:50:06] "[31m[1mPOST /dbproj/register/admin HTTP/1.1[0m" 405 -
+13:50:23 [ERROR]: Exception on /dbproj/register/admin [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 56, in register_admin_endpoint
+    if payload['role'] is True:
+       ~~~~~~~^^^^^^^^
+KeyError: 'role'
+13:50:23 [INFO]: 127.0.0.1 - - [15/May/2026 13:50:23] "[35m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 500 -
+13:50:28 [INFO]: 127.0.0.1 - - [15/May/2026 13:50:28] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:52:38 [INFO]: Server running on http://127.0.0.1:8080
+13:52:38 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:52:38 [INFO]: [33mPress CTRL+C to quit[0m
+13:52:43 [INFO]: 127.0.0.1 - - [15/May/2026 13:52:43] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:54:17 [INFO]: Server running on http://127.0.0.1:8080
+13:54:17 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:54:17 [INFO]: [33mPress CTRL+C to quit[0m
+13:54:20 [INFO]: 127.0.0.1 - - [15/May/2026 13:54:20] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:56:21 [INFO]: Server running on http://127.0.0.1:8080
+13:56:21 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:56:21 [INFO]: [33mPress CTRL+C to quit[0m
+13:56:26 [INFO]: 127.0.0.1 - - [15/May/2026 13:56:26] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+13:57:39 [INFO]: Server running on http://127.0.0.1:8080
+13:57:39 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+13:57:39 [INFO]: [33mPress CTRL+C to quit[0m
+13:57:43 [INFO]: 127.0.0.1 - - [15/May/2026 13:57:43] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+14:00:57 [INFO]: Server running on http://127.0.0.1:8080
+14:00:57 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:00:57 [INFO]: [33mPress CTRL+C to quit[0m
+14:01:00 [INFO]: 127.0.0.1 - - [15/May/2026 14:01:00] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+14:03:51 [INFO]: Server running on http://127.0.0.1:8080
+14:03:51 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:03:51 [INFO]: [33mPress CTRL+C to quit[0m
+14:03:54 [INFO]: 127.0.0.1 - - [15/May/2026 14:03:54] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+14:04:06 [INFO]: 127.0.0.1 - - [15/May/2026 14:04:06] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+14:04:10 [INFO]: 127.0.0.1 - - [15/May/2026 14:04:10] "[33mPOST /dbproj/user%0A HTTP/1.1[0m" 404 -
+14:04:18 [INFO]: 127.0.0.1 - - [15/May/2026 14:04:18] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+14:04:23 [INFO]: PUT /dbproj/user
+14:04:24 [INFO]: 127.0.0.1 - - [15/May/2026 14:04:24] "PUT /dbproj/user HTTP/1.1" 200 -
+14:04:49 [INFO]: 127.0.0.1 - - [15/May/2026 14:04:49] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 403 -
+14:06:31 [INFO]: Server running on http://127.0.0.1:8080
+14:06:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:06:31 [INFO]: [33mPress CTRL+C to quit[0m
+14:06:34 [INFO]: 127.0.0.1 - - [15/May/2026 14:06:34] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 403 -
+14:06:43 [INFO]: 127.0.0.1 - - [15/May/2026 14:06:43] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 403 -
+14:09:44 [INFO]: 127.0.0.1 - - [15/May/2026 14:09:44] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 403 -
+14:37:53 [INFO]: Server running on http://127.0.0.1:8080
+14:37:53 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:37:53 [INFO]: [33mPress CTRL+C to quit[0m
+14:39:28 [INFO]: PUT /dbproj/user
+14:39:29 [INFO]: 127.0.0.1 - - [15/May/2026 14:39:29] "PUT /dbproj/user HTTP/1.1" 200 -
+14:39:45 [INFO]: 127.0.0.1 - - [15/May/2026 14:39:45] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+14:40:21 [INFO]: 127.0.0.1 - - [15/May/2026 14:40:21] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 400 -
+14:40:26 [INFO]: 127.0.0.1 - - [15/May/2026 14:40:26] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+14:44:30 [INFO]: Server running on http://127.0.0.1:8080
+14:44:30 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+14:44:30 [INFO]: [33mPress CTRL+C to quit[0m
+15:22:16 [INFO]: Server running on http://127.0.0.1:8080
+15:22:16 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:22:16 [INFO]: [33mPress CTRL+C to quit[0m
+15:22:59 [INFO]: 127.0.0.1 - - [15/May/2026 15:22:59] "[31m[1mPUT /dbproj/register/admin HTTP/1.1[0m" 401 -
+15:23:06 [INFO]: 127.0.0.1 - - [15/May/2026 15:23:06] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+15:23:14 [INFO]: 127.0.0.1 - - [15/May/2026 15:23:14] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+15:23:19 [INFO]: 127.0.0.1 - - [15/May/2026 15:23:19] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+15:23:39 [INFO]: Server running on http://127.0.0.1:8080
+15:23:39 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:23:39 [INFO]: [33mPress CTRL+C to quit[0m
+15:24:00 [INFO]: 127.0.0.1 - - [15/May/2026 15:24:00] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+15:24:15 [INFO]: PUT /dbproj/user
+15:24:15 [INFO]: 127.0.0.1 - - [15/May/2026 15:24:15] "PUT /dbproj/user HTTP/1.1" 200 -
+15:24:38 [INFO]: 127.0.0.1 - - [15/May/2026 15:24:38] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+15:26:21 [INFO]: Server running on http://127.0.0.1:8080
+15:26:21 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:26:21 [INFO]: [33mPress CTRL+C to quit[0m
+15:26:38 [INFO]: Server running on http://127.0.0.1:8080
+15:26:38 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+15:26:38 [INFO]: [33mPress CTRL+C to quit[0m
+15:26:49 [INFO]: 127.0.0.1 - - [15/May/2026 15:26:49] "[33mPUT /dbproj/user%0A HTTP/1.1[0m" 404 -
+15:26:54 [INFO]: PUT /dbproj/user
+15:26:54 [INFO]: 127.0.0.1 - - [15/May/2026 15:26:54] "PUT /dbproj/user HTTP/1.1" 200 -
+15:27:31 [INFO]: 127.0.0.1 - - [15/May/2026 15:27:31] "PUT /dbproj/register/admin HTTP/1.1" 200 -
+15:28:12 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:12] "[33mPUT /dbproj/register/cliente HTTP/1.1[0m" 404 -
+15:28:16 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:16] "[33mPOST /dbproj/register/cliente HTTP/1.1[0m" 404 -
+15:28:21 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:21] "[33mPOST /dbproj/register/cliente HTTP/1.1[0m" 404 -
+15:28:26 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:26] "[33mPOST /dbproj/register/cliente HTTP/1.1[0m" 404 -
+15:28:49 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:49] "POST /dbproj/register/costumer HTTP/1.1" 200 -
