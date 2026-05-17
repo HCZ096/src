@@ -2813,3 +2813,541 @@ KeyError: 'role'
 15:28:21 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:21] "[33mPOST /dbproj/register/cliente HTTP/1.1[0m" 404 -
 15:28:26 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:26] "[33mPOST /dbproj/register/cliente HTTP/1.1[0m" 404 -
 15:28:49 [INFO]: 127.0.0.1 - - [15/May/2026 15:28:49] "POST /dbproj/register/costumer HTTP/1.1" 200 -
+12:12:00 [INFO]: Server running on http://127.0.0.1:8080
+12:12:00 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+12:12:00 [INFO]: [33mPress CTRL+C to quit[0m
+12:12:18 [INFO]: 127.0.0.1 - - [16/May/2026 12:12:18] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 405 -
+12:12:22 [INFO]: PUT /dbproj/user
+12:12:22 [INFO]: 127.0.0.1 - - [16/May/2026 12:12:22] "PUT /dbproj/user HTTP/1.1" 200 -
+22:49:37 [INFO]: Server running on http://127.0.0.1:8080
+22:49:37 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+22:49:37 [INFO]: [33mPress CTRL+C to quit[0m
+22:49:55 [INFO]: PUT /dbproj/user
+22:49:55 [INFO]: 127.0.0.1 - - [16/May/2026 22:49:55] "PUT /dbproj/user HTTP/1.1" 200 -
+22:50:39 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+22:50:39 [INFO]: 127.0.0.1 - - [16/May/2026 22:50:39] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+22:51:18 [INFO]: 127.0.0.1 - - [16/May/2026 22:51:18] "[31m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 400 -
+22:52:26 [INFO]: 127.0.0.1 - - [16/May/2026 22:52:26] "[33mPUT /dbproj/line_operation/<int:line_id> HTTP/1.1[0m" 404 -
+22:52:31 [INFO]: 127.0.0.1 - - [16/May/2026 22:52:31] "[31m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 400 -
+22:53:02 [INFO]: 127.0.0.1 - - [16/May/2026 22:53:02] "[33mPUT /dbproj/line_operation/<1> HTTP/1.1[0m" 404 -
+22:53:08 [INFO]: 127.0.0.1 - - [16/May/2026 22:53:08] "[31m[1mPUT /dbproj/line_operation/0 HTTP/1.1[0m" 400 -
+22:54:27 [ERROR]: Exception on /dbproj/line_operation/0 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 16, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+22:54:27 [INFO]: 127.0.0.1 - - [16/May/2026 22:54:27] "[35m[1mPUT /dbproj/line_operation/0 HTTP/1.1[0m" 500 -
+00:24:43 [INFO]: Server running on http://127.0.0.1:8080
+00:24:43 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:24:43 [INFO]: [33mPress CTRL+C to quit[0m
+00:24:50 [INFO]: 127.0.0.1 - - [17/May/2026 00:24:50] "[31m[1mPUT /dbproj/line_operation/0 HTTP/1.1[0m" 401 -
+00:25:02 [INFO]: PUT /dbproj/user
+00:25:02 [INFO]: 127.0.0.1 - - [17/May/2026 00:25:02] "PUT /dbproj/user HTTP/1.1" 200 -
+00:26:27 [INFO]: PUT /dbproj/user
+00:26:27 [INFO]: 127.0.0.1 - - [17/May/2026 00:26:27] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+00:26:33 [INFO]: 127.0.0.1 - - [17/May/2026 00:26:33] "[31m[1mPOST /dbproj/user HTTP/1.1[0m" 405 -
+00:26:40 [INFO]: PUT /dbproj/user
+00:26:40 [INFO]: 127.0.0.1 - - [17/May/2026 00:26:40] "PUT /dbproj/user HTTP/1.1" 200 -
+00:26:58 [ERROR]: Exception on /dbproj/line_operation/0 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 16, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:26:58 [INFO]: 127.0.0.1 - - [17/May/2026 00:26:58] "[35m[1mPUT /dbproj/line_operation/0 HTTP/1.1[0m" 500 -
+00:27:09 [INFO]: 127.0.0.1 - - [17/May/2026 00:27:09] "[33mPUT /dbproj/line_operations/0 HTTP/1.1[0m" 404 -
+00:35:09 [INFO]: Server running on http://127.0.0.1:8080
+00:35:09 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:35:09 [INFO]: [33mPress CTRL+C to quit[0m
+00:35:12 [INFO]: 127.0.0.1 - - [17/May/2026 00:35:12] "[33mPUT /dbproj/line_operations/0 HTTP/1.1[0m" 404 -
+00:35:35 [INFO]: 127.0.0.1 - - [17/May/2026 00:35:35] "[33mPUT /dbproj/line_operations/0 HTTP/1.1[0m" 404 -
+00:36:58 [INFO]: 127.0.0.1 - - [17/May/2026 00:36:58] "[33mPUT /dbproj/line_operations/0 HTTP/1.1[0m" 404 -
+00:37:36 [INFO]: 127.0.0.1 - - [17/May/2026 00:37:36] "PUT /dbproj/line_operation/0 HTTP/1.1" 200 -
+00:41:08 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:41:08 [INFO]: 127.0.0.1 - - [17/May/2026 00:41:08] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:41:43 [INFO]: 127.0.0.1 - - [17/May/2026 00:41:43] "[31m[1mPUT /dbproj/line_operation/2 HTTP/1.1[0m" 401 -
+00:42:12 [INFO]: PUT /dbproj/user
+00:42:13 [INFO]: 127.0.0.1 - - [17/May/2026 00:42:13] "PUT /dbproj/user HTTP/1.1" 200 -
+00:42:44 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:42:44 [INFO]: 127.0.0.1 - - [17/May/2026 00:42:44] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:42:48 [INFO]: 127.0.0.1 - - [17/May/2026 00:42:48] "PUT /dbproj/line_operation/0 HTTP/1.1" 200 -
+00:43:23 [INFO]: Server running on http://127.0.0.1:8080
+00:43:23 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:43:23 [INFO]: [33mPress CTRL+C to quit[0m
+00:43:27 [INFO]: 127.0.0.1 - - [17/May/2026 00:43:27] "PUT /dbproj/line_operation/0 HTTP/1.1" 200 -
+00:43:33 [ERROR]: Exception on /dbproj/line_operation/2 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:43:33 [INFO]: 127.0.0.1 - - [17/May/2026 00:43:33] "[35m[1mPUT /dbproj/line_operation/2 HTTP/1.1[0m" 500 -
+00:43:56 [INFO]: 127.0.0.1 - - [17/May/2026 00:43:56] "[33mPUT /dbproj/line_operation/<int:1> HTTP/1.1[0m" 404 -
+00:44:02 [INFO]: 127.0.0.1 - - [17/May/2026 00:44:02] "[33mPUT /dbproj/line_operation/<1> HTTP/1.1[0m" 404 -
+00:44:05 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:44:05 [INFO]: 127.0.0.1 - - [17/May/2026 00:44:05] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:44:08 [INFO]: 127.0.0.1 - - [17/May/2026 00:44:08] "[33mPUT /dbproj/line_operation/$1 HTTP/1.1[0m" 404 -
+00:44:28 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:44:28 [INFO]: 127.0.0.1 - - [17/May/2026 00:44:28] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:45:25 [INFO]: 127.0.0.1 - - [17/May/2026 00:45:25] "PUT /dbproj/line_operation/0 HTTP/1.1" 200 -
+00:47:02 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:47:02 [INFO]: 127.0.0.1 - - [17/May/2026 00:47:02] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:49:55 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:49:55 [INFO]: 127.0.0.1 - - [17/May/2026 00:49:55] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:50:00 [INFO]: Server running on http://127.0.0.1:8080
+00:50:00 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:50:00 [INFO]: [33mPress CTRL+C to quit[0m
+00:50:02 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 50, in update_line_operation
+    return flask.jsonify({
+                         ^
+    ...<2 lines>...
+    })
+    ^
+TypeError: cannot use 'list' as a set element (unhashable type: 'list')
+00:50:02 [INFO]: 127.0.0.1 - - [17/May/2026 00:50:02] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:52:56 [INFO]: Server running on http://127.0.0.1:8080
+00:52:56 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:52:56 [INFO]: [33mPress CTRL+C to quit[0m
+00:52:59 [ERROR]: Error updating line: syntax error at or near ","
+LINE 4:             WHERE id_linha = 1,
+                                      ^
+
+00:52:59 [INFO]: 127.0.0.1 - - [17/May/2026 00:52:59] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+00:55:55 [INFO]: Server running on http://127.0.0.1:8080
+00:55:55 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:55:55 [INFO]: [33mPress CTRL+C to quit[0m
+00:55:59 [ERROR]: Error updating line: column "vehicle_capacity" of relation "horario" does not exist
+LINE 6:             vehicle_capacity=50
+                    ^
+
+00:55:59 [INFO]: 127.0.0.1 - - [17/May/2026 00:55:59] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+00:57:33 [INFO]: Server running on http://127.0.0.1:8080
+00:57:33 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:57:33 [INFO]: [33mPress CTRL+C to quit[0m
+00:57:34 [INFO]: 127.0.0.1 - - [17/May/2026 00:57:34] "[31m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 401 -
+00:58:23 [INFO]: PUT /dbproj/user
+00:58:23 [INFO]: 127.0.0.1 - - [17/May/2026 00:58:23] "PUT /dbproj/user HTTP/1.1" 200 -
+00:58:39 [INFO]: 127.0.0.1 - - [17/May/2026 00:58:39] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+00:59:05 [INFO]: 127.0.0.1 - - [17/May/2026 00:59:05] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+00:59:25 [INFO]: Server running on http://127.0.0.1:8080
+00:59:25 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+00:59:25 [INFO]: [33mPress CTRL+C to quit[0m
+00:59:27 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 55, in update_line_operation
+    vehicle_capacity = payload['vehicle_capacity']
+                       ~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'vehicle_capacity'
+00:59:27 [INFO]: 127.0.0.1 - - [17/May/2026 00:59:27] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+00:59:53 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Python314\Lib\site-packages\flask_jwt_extended\view_decorators.py", line 170, in decorator
+    return current_app.ensure_sync(fn)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\authentication.py", line 179, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\rest_api.py", line 58, in update_line_operation_endpoint
+    return update_line_operation(line_id)
+  File "C:\Users\Administrador\PycharmProjects\PROJETOBD\APP\src\line_operations.py", line 55, in update_line_operation
+    vehicle_capacity = payload['vehicle_capacity']
+                       ~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'vehicle_capacity'
+00:59:53 [INFO]: 127.0.0.1 - - [17/May/2026 00:59:53] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+01:00:05 [INFO]: Server running on http://127.0.0.1:8080
+01:00:05 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:00:05 [INFO]: [33mPress CTRL+C to quit[0m
+01:00:08 [INFO]: Server running on http://127.0.0.1:8080
+01:00:08 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:00:08 [INFO]: [33mPress CTRL+C to quit[0m
+01:00:19 [INFO]: Server running on http://127.0.0.1:8080
+01:00:19 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:00:19 [INFO]: [33mPress CTRL+C to quit[0m
+01:00:52 [ERROR]: Error updating line: syntax error at or near "WHERE"
+LINE 6:             WHERE id_linha = 1
+                    ^
+
+01:00:52 [INFO]: 127.0.0.1 - - [17/May/2026 01:00:52] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+01:01:50 [ERROR]: Error updating line: syntax error at or near "WHERE"
+LINE 6:             WHERE id_linha = 1
+                    ^
+
+01:01:50 [INFO]: 127.0.0.1 - - [17/May/2026 01:01:50] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+01:04:05 [INFO]: Server running on http://127.0.0.1:8080
+01:04:05 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:04:05 [INFO]: [33mPress CTRL+C to quit[0m
+01:04:07 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: The view function for 'update_line_operation_endpoint' did not return a valid response. The function either returned None or ended without a return statement.
+01:04:07 [INFO]: 127.0.0.1 - - [17/May/2026 01:04:07] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+01:04:16 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: The view function for 'update_line_operation_endpoint' did not return a valid response. The function either returned None or ended without a return statement.
+01:04:16 [INFO]: 127.0.0.1 - - [17/May/2026 01:04:16] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+01:05:14 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: The view function for 'update_line_operation_endpoint' did not return a valid response. The function either returned None or ended without a return statement.
+01:05:14 [INFO]: 127.0.0.1 - - [17/May/2026 01:05:14] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+01:06:01 [ERROR]: Exception on /dbproj/line_operation/1 [PUT]
+Traceback (most recent call last):
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Python314\Lib\site-packages\flask\app.py", line 1212, in make_response
+    raise TypeError(
+    ...<3 lines>...
+    )
+TypeError: The view function for 'update_line_operation_endpoint' did not return a valid response. The function either returned None or ended without a return statement.
+01:06:01 [INFO]: 127.0.0.1 - - [17/May/2026 01:06:01] "[35m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 500 -
+01:13:11 [INFO]: Server running on http://127.0.0.1:8080
+01:13:11 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:13:11 [INFO]: [33mPress CTRL+C to quit[0m
+01:13:14 [ERROR]: Error updating line: syntax error at or near "disponivel"
+LINE 4:                     capacidade_ disponivel = 50
+                                        ^
+
+01:13:14 [INFO]: 127.0.0.1 - - [17/May/2026 01:13:14] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+01:13:45 [INFO]: Server running on http://127.0.0.1:8080
+01:13:45 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:13:45 [INFO]: [33mPress CTRL+C to quit[0m
+01:13:50 [INFO]: 127.0.0.1 - - [17/May/2026 01:13:50] "[31m[1mPUT /dbproj/line_operation/1 HTTP/1.1[0m" 401 -
+01:14:07 [INFO]: PUT /dbproj/user
+01:14:07 [INFO]: 127.0.0.1 - - [17/May/2026 01:14:07] "[31m[1mPUT /dbproj/user HTTP/1.1[0m" 400 -
+01:14:14 [INFO]: PUT /dbproj/user
+01:14:14 [INFO]: 127.0.0.1 - - [17/May/2026 01:14:14] "PUT /dbproj/user HTTP/1.1" 200 -
+01:14:33 [ERROR]: Error updating line: column "capacidadev" of relation "viagem" does not exist
+LINE 3:                 SET capacidadeV = 50,
+                            ^
+
+01:14:33 [INFO]: 127.0.0.1 - - [17/May/2026 01:14:33] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+01:22:06 [INFO]: Server running on http://127.0.0.1:8080
+01:22:06 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8080
+01:22:06 [INFO]: [33mPress CTRL+C to quit[0m
+01:22:13 [ERROR]: Error updating line: column "capacidadev" of relation "viagem" does not exist
+LINE 3:                 SET capacidadev = 50,
+                            ^
+
+01:22:13 [INFO]: 127.0.0.1 - - [17/May/2026 01:22:13] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -
+01:22:40 [INFO]: 127.0.0.1 - - [17/May/2026 01:22:40] "PUT /dbproj/line_operation/1 HTTP/1.1" 200 -

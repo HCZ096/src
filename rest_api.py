@@ -53,14 +53,14 @@ def register_costumer_endpoint():
 # 4. update line
 @app.route('/dbproj/line_operation/<int:line_id>', methods=['PUT'])
 @jwt_required()
-@role_required('superadmin','admin')
+@role_required(True,False)
 def update_line_operation_endpoint(line_id):
     return update_line_operation(line_id)
 
 # 5.Update fare price
 @app.route('/dbproj/fares/<int:fare_id>',methods=['PUT'])
 @jwt_required()
-@role_required('superadmin', 'admin')
+@role_required(True,False)
 def  update_fare_endpoint(fare_id):
     return update_fare(fare_id)
 
